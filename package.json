@@ -1,0 +1,22 @@
+{
+    "name": "primo-explore-google-analytics",
+    "version": "1.0.0",
+    "description": "This component allows you to track your Primo Explore instance with Google Analytics using the analytics.js tracking method.",
+    "main": "./src/googleAnalytics.module.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+      "unibz",
+      "primo",
+      "primo-explore",
+      "gui",
+      "ga",
+      "google analytics",
+      "analytics.js"
+    ],
+    "author": "",
+    "license": "",
+    "devDependencies": {}
+  }
+  
