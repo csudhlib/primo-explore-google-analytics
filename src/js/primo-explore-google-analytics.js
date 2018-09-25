@@ -1,5 +1,5 @@
-angular.module('googleAnalytics', []);
-angular.module('googleAnalytics').run(function ($rootScope, $interval, analyticsOptions) {
+angular.module('primo-explore-google-analytics', []);
+angular.module('primo-explore-google-analytics').run(function ($rootScope, $interval, analyticsOptions) {
 	if(analyticsOptions.hasOwnProperty("enabled") && analyticsOptions.enabled) {
 		if(analyticsOptions.hasOwnProperty("siteId") && analyticsOptions.siteId != '') {
 			if(typeof ga === 'undefined') {
@@ -33,7 +33,7 @@ angular.module('googleAnalytics').run(function ($rootScope, $interval, analytics
 		});
 	}
 });
-angular.module('googleAnalytics').value('analyticsOptions', {
+angular.module('primo-explore-google-analytics').value('analyticsOptions', {
 	enabled: true,
 	siteId: '',
 	defaultTitle: ''
